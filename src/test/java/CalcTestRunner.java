@@ -2,7 +2,7 @@ import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.Test;
 
-public class TestRunner extends Setup {
+public class CalcTestRunner extends Setup {
     @Test(priority = 1, description = "Sum of 2 number")
     public void doSum() throws InterruptedException {
         CalcScreen calcScreen=new CalcScreen(driver);

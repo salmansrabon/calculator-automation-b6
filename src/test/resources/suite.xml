@@ -2,7 +2,7 @@
 
     <test name="Calculator automation">
         <classes>
-            <class name="TestRunner"/>
+            <class name="CalcTestRunner"/>
         </classes>
     </test>
 
